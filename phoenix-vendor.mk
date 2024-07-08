@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
+    vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/female_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_bg.png \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/golden_front_dc_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_front_dc_cal.bin \
@@ -37,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
+    vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/mibokeh_712_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_parameter.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml \
@@ -257,8 +259,10 @@ PRODUCT_PACKAGES += \
     consumerir.sm6150 \
     fingerprint.fpc.sm6150 \
     fingerprint.goodix.sm6150 \
+    libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libHalSuperSensorServer \
+    libMegviiFacepp-0.5.2 \
     libSuperSensor \
     libSuperSensorCPU \
     libVDClearShot \
@@ -296,6 +300,7 @@ PRODUCT_PACKAGES += \
     libcapiv2svacnn \
     libcapiv2vop \
     libcom.qti.chinodeutils \
+    libfacedet \
     libft2vendor \
     libgf_ca \
     libgf_hal \
